@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/CapstoneMap.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
