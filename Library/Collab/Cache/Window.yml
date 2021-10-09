@@ -14,17 +14,264 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Barmetler.meta
+    - Assets/Barmetler/Road System.meta
+    - Assets/Barmetler/Road System/Demo.meta
+    - Assets/Barmetler/Road System/Demo/Materials.meta
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Concrete_mat.mat
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Concrete_mat.mat.meta
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Debug_mat.mat
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Debug_mat.mat.meta
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Debug_mat_scaled.mat
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Debug_mat_scaled.mat.meta
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Road_mat.mat
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Road_mat.mat.meta
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Sidewalk_mat.mat
+    - Assets/Barmetler/Road System/Demo/Materials/RS_Sidewalk_mat.mat.meta
+    - Assets/Barmetler/Road System/Demo/Materials/SidewalkExtraTiles.mat
+    - Assets/Barmetler/Road System/Demo/Materials/SidewalkExtraTiles.mat.meta
+    - Assets/Barmetler/Road System/Demo/Models.meta
+    - Assets/Barmetler/Road System/Demo/Models/CurvedT.fbx
+    - Assets/Barmetler/Road System/Demo/Models/CurvedT.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/End.fbx
+    - Assets/Barmetler/Road System/Demo/Models/End.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Intersection.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Intersection.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/IntersectionT.fbx
+    - Assets/Barmetler/Road System/Demo/Models/IntersectionT.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Straight 4 Lane Bridge.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Straight 4 Lane Bridge.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Straight 4 Lane.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Straight 4 Lane.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Straight Ground.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Straight Ground.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Straight.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Straight.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Models/Transition 2-4.fbx
+    - Assets/Barmetler/Road System/Demo/Models/Transition 2-4.fbx.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Complex.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 4-Way.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 4-Way.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 8-Way.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 8-Way.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way
+      Curved r=30m.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way
+      Curved r=30m.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 4-Way.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 4-Way.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection End.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection End.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane
+      Bridge.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane
+      Bridge.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road Ground.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road Ground.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Transition 2-4.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Transition 2-4.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/CurvedT.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/CurvedT.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/End.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/End.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Intersection.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Intersection.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/IntersectionT.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/IntersectionT.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane Bridge.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane Bridge.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight Ground.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight Ground.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Transition 2-4.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Objects/Transition 2-4.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane Ground.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane Ground.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 4-Lane Bridge.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 4-Lane Bridge.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 4-Lane.prefab
+    - Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 4-Lane.prefab.meta
+    - Assets/Barmetler/Road System/Demo/Scenes.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem.unity
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem.unity.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/LightingData.asset
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/LightingData.asset.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/New Lighting Settings.lighting
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/New Lighting Settings.lighting.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/ReflectionProbe-0.exr
+    - Assets/Barmetler/Road System/Demo/Scenes/ExampleSystem/ReflectionProbe-0.exr.meta
+    - Assets/Barmetler/Road System/Demo/Scenes/Models.unity
+    - Assets/Barmetler/Road System/Demo/Scenes/Models.unity.meta
+    - Assets/Barmetler/Road System/Demo/Textures.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_AmbientOcclusion.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_AmbientOcclusion.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Color.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Color.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Displacement.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Displacement.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Metallic_Smoothness.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Metallic_Smoothness.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Normal.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Normal.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Roughness.png
+    - Assets/Barmetler/Road System/Demo/Textures/Concrete031_1K_Roughness.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_AmbientOcclusion.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_AmbientOcclusion.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Color.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Color.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Displacement.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Displacement.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Metallic_Smoothness.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Metallic_Smoothness.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Normal.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Normal.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Roughness.png
+    - Assets/Barmetler/Road System/Demo/Textures/PavingStones081_1K_Roughness.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/RS_Debug.png
+    - Assets/Barmetler/Road System/Demo/Textures/RS_Debug.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Color.png
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Color.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Displacement.png
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Displacement.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Metallic_Smoothness.png
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Metallic_Smoothness.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Normal.png
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Normal.png.meta
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Roughness.png
+    - Assets/Barmetler/Road System/Demo/Textures/Road007_1K_Roughness.png.meta
+    - Assets/Barmetler/Road System/Documentation.pdf
+    - Assets/Barmetler/Road System/Documentation.pdf.meta
+    - Assets/Barmetler/Road System/Editor.meta
+    - Assets/Barmetler/Road System/Editor/Barmetler.RoadSystem.Editor.asmdef
+    - Assets/Barmetler/Road System/Editor/Barmetler.RoadSystem.Editor.asmdef.meta
+    - Assets/Barmetler/Road System/Editor/IntersectionEditor.cs
+    - Assets/Barmetler/Road System/Editor/IntersectionEditor.cs.meta
+    - Assets/Barmetler/Road System/Editor/MBEditorTool.cs
+    - Assets/Barmetler/Road System/Editor/MBEditorTool.cs.meta
+    - Assets/Barmetler/Road System/Editor/RSHandleUtility.cs
+    - Assets/Barmetler/Road System/Editor/RSHandleUtility.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadEditor.cs
+    - Assets/Barmetler/Road System/Editor/RoadEditor.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadEditorWindow.cs
+    - Assets/Barmetler/Road System/Editor/RoadEditorWindow.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadLinkTool.cs
+    - Assets/Barmetler/Road System/Editor/RoadLinkTool.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadMenu.cs
+    - Assets/Barmetler/Road System/Editor/RoadMenu.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadMeshEditor.cs
+    - Assets/Barmetler/Road System/Editor/RoadMeshEditor.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadSystemEditor.cs
+    - Assets/Barmetler/Road System/Editor/RoadSystemEditor.cs.meta
+    - Assets/Barmetler/Road System/Editor/RoadSystemNavigatorEditor.cs
+    - Assets/Barmetler/Road System/Editor/RoadSystemNavigatorEditor.cs.meta
+    - Assets/Barmetler/Road System/Editor/Settings.meta
+    - Assets/Barmetler/Road System/Editor/Settings/NewRoadWizard.cs
+    - Assets/Barmetler/Road System/Editor/Settings/NewRoadWizard.cs.meta
+    - Assets/Barmetler/Road System/Editor/Settings/RoadSystemSettings.cs
+    - Assets/Barmetler/Road System/Editor/Settings/RoadSystemSettings.cs.meta
+    - Assets/Barmetler/Road System/Editor/Settings/RoadSystemSettingsProvider.cs
+    - Assets/Barmetler/Road System/Editor/Settings/RoadSystemSettingsProvider.cs.meta
+    - Assets/Barmetler/Road System/Editor/YesNoMaybe.cs
+    - Assets/Barmetler/Road System/Editor/YesNoMaybe.cs.meta
+    - Assets/Barmetler/Road System/Resources.meta
+    - Assets/Barmetler/Road System/Resources/Icons.meta
+    - Assets/Barmetler/Road System/Resources/Icons/Extrude.png
+    - Assets/Barmetler/Road System/Resources/Icons/Extrude.png.meta
+    - Assets/Barmetler/Road System/Resources/Icons/Extrude.svg
+    - Assets/Barmetler/Road System/Resources/Icons/Extrude.svg.meta
+    - Assets/Barmetler/Road System/Resources/Icons/RemovePoint.png
+    - Assets/Barmetler/Road System/Resources/Icons/RemovePoint.png.meta
+    - Assets/Barmetler/Road System/Resources/Icons/RemovePoint.svg
+    - Assets/Barmetler/Road System/Resources/Icons/RemovePoint.svg.meta
+    - Assets/Barmetler/Road System/Resources/Icons/Road.png
+    - Assets/Barmetler/Road System/Resources/Icons/Road.png.meta
+    - Assets/Barmetler/Road System/Resources/Icons/Road.svg
+    - Assets/Barmetler/Road System/Resources/Icons/Road.svg.meta
+    - Assets/Barmetler/Road System/Runtime.meta
+    - Assets/Barmetler/Road System/Runtime/Barmetler.RoadSystem.Runtime.asmdef
+    - Assets/Barmetler/Road System/Runtime/Barmetler.RoadSystem.Runtime.asmdef.meta
+    - Assets/Barmetler/Road System/Runtime/Bezier.cs
+    - Assets/Barmetler/Road System/Runtime/Bezier.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Intersection.cs
+    - Assets/Barmetler/Road System/Runtime/Intersection.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Path Finding.meta
+    - Assets/Barmetler/Road System/Runtime/Path Finding/AStar.cs
+    - Assets/Barmetler/Road System/Runtime/Path Finding/AStar.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Road.cs
+    - Assets/Barmetler/Road System/Runtime/Road.cs.meta
+    - Assets/Barmetler/Road System/Runtime/RoadAnchor.cs
+    - Assets/Barmetler/Road System/Runtime/RoadAnchor.cs.meta
+    - Assets/Barmetler/Road System/Runtime/RoadMeshGenerator.cs
+    - Assets/Barmetler/Road System/Runtime/RoadMeshGenerator.cs.meta
+    - Assets/Barmetler/Road System/Runtime/RoadSystem.cs
+    - Assets/Barmetler/Road System/Runtime/RoadSystem.cs.meta
+    - Assets/Barmetler/Road System/Runtime/RoadSystemNavigator.cs
+    - Assets/Barmetler/Road System/Runtime/RoadSystemNavigator.cs.meta
+    - Assets/Barmetler/Road System/Runtime/RoadUtilities.cs
+    - Assets/Barmetler/Road System/Runtime/RoadUtilities.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util.meta
+    - Assets/Barmetler/Road System/Runtime/Util/AsyncUpdater.cs
+    - Assets/Barmetler/Road System/Runtime/Util/AsyncUpdater.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/ContextDataCache.cs
+    - Assets/Barmetler/Road System/Runtime/Util/ContextDataCache.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/DataCache.cs
+    - Assets/Barmetler/Road System/Runtime/Util/DataCache.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/MeshConversion.cs
+    - Assets/Barmetler/Road System/Runtime/Util/MeshConversion.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/NavigationLineUpdater.cs
+    - Assets/Barmetler/Road System/Runtime/Util/NavigationLineUpdater.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/StringUtility.cs
+    - Assets/Barmetler/Road System/Runtime/Util/StringUtility.cs.meta
+    - Assets/Barmetler/Road System/Runtime/Util/TwoDimensionalArray.cs
+    - Assets/Barmetler/Road System/Runtime/Util/TwoDimensionalArray.cs.meta
+    - Assets/Barmetler/Road System/Tests.meta
+    - Assets/Barmetler/Road System/Tests/Editor.meta
+    - Assets/Barmetler/Road System/Tests/Editor/Barmetler.RoadSystem.Editor.Tests.asmdef
+    - Assets/Barmetler/Road System/Tests/Editor/Barmetler.RoadSystem.Editor.Tests.asmdef.meta
+    - Assets/Barmetler/Road System/Tests/Editor/NewTestScript.cs
+    - Assets/Barmetler/Road System/Tests/Editor/NewTestScript.cs.meta
+    - Assets/Barmetler/Road System/Tests/Runtime.meta
+    - Assets/Barmetler/Road System/Tests/Runtime/Barmetler.RoadSystem.Runtime.Tests.asmdef
+    - Assets/Barmetler/Road System/Tests/Runtime/Barmetler.RoadSystem.Runtime.Tests.asmdef.meta
+    - Assets/Barmetler/Road System/Tests/Runtime/UtilTests.cs
+    - Assets/Barmetler/Road System/Tests/Runtime/UtilTests.cs.meta
     - Assets/External/CapstoneMap.blend
     - Assets/External/CapstoneMap.blend.meta
     - Assets/External/CapstoneMap.blend1
     - Assets/External/CapstoneMap.blend1.meta
     - Assets/Models/CapstoneMap.fbx
     - Assets/Models/CapstoneMap.fbx.meta
+    - Assets/Models/FlowerBed.fbx
+    - Assets/Models/FlowerBed.fbx.meta
+    - Assets/Models/LP Generator .fbx
+    - Assets/Models/LP Generator .fbx.meta
     - Assets/Scenes/CapstoneMap.unity
     - Assets/Scenes/CapstoneMap.unity.meta
     - Assets/Scenes/DowntownMap.unity
+    - Assets/Scripts/SimpleCarController.cs
+    - Assets/Settings/Editor.meta
+    - Assets/Settings/Editor/RoadSystemSettings.asset
+    - Assets/Settings/Editor/RoadSystemSettings.asset.meta
+    - Assets/Textures/CapstoneMapTexture.png
+    - Assets/Textures/CapstoneMapTexture.png.meta
     - 
-    m_Values: 00000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
