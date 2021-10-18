@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FF608899-90C3-2280-1160-20EE1CA32F14}</ProjectGuid>
+    <ProjectGuid>{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,24 +56,58 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Agent\NavMovement.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\Scripts\Agent\SearchPath.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-    <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\Scripts\Car\GameController.cs" />
+    <Compile Include="Assets\Scripts\Car\CameraManager.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Ramps\Runtime\RampAsset.cs" />
+    <Compile Include="Assets\Scripts\Agent\StateMachine.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\Agent\IdleState.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\Scripts\SimpleCarController.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\Scripts\Car\SimpleCarController.cs" />
+    <Compile Include="Assets\Scripts\Agent\StateAgent.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\Scripts\Agent\WaypointNode.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\FireLight.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\Scripts\Agent\AttackState.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\Scripts\Agent\RaycastPerception.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Scripts\AICarController.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\Car\AICarController.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\Hose.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Agent\Agent.cs" />
+    <Compile Include="Assets\Scripts\Agent\SearchNode.cs" />
+    <Compile Include="Assets\Scripts\Agent\State.cs" />
+    <Compile Include="Assets\Scripts\Agent\Perception.cs" />
+    <Compile Include="Assets\Scripts\Agent\Movement.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -82,6 +116,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
@@ -91,10 +126,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -764,12 +803,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7F56E623-E214-5249-7A68-5A6003024663}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Barmetler.RoadSystem.Editor.csproj">
-      <Project>{50611E02-EF8C-634F-CA20-57A820578551}</Project>
+      <Project>{A609636B-0471-45C5-E4A4-4B2484F48813}</Project>
       <Name>Barmetler.RoadSystem.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Barmetler.RoadSystem.Runtime.csproj">
-      <Project>{2F1AA7E4-CB72-269A-5CD9-F67DA3CCFA9B}</Project>
+      <Project>{E55ED01E-0CB2-1B76-B2F1-7319A8229810}</Project>
       <Name>Barmetler.RoadSystem.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

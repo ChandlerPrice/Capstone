@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA2AE0C1-D748-3CAA-A894-D60E7A1463FF}</ProjectGuid>
+    <ProjectGuid>{23F9D405-3BDD-4419-485B-398E3C85F40C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -780,16 +780,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7F56E623-E214-5249-7A68-5A6003024663}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FF608899-90C3-2280-1160-20EE1CA32F14}</Project>
+      <Project>{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{07D8710C-FA0E-5DFF-AD69-E5DC60FCCA50}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Barmetler.RoadSystem.Editor.csproj">
-      <Project>{50611E02-EF8C-634F-CA20-57A820578551}</Project>
+      <Project>{A609636B-0471-45C5-E4A4-4B2484F48813}</Project>
       <Name>Barmetler.RoadSystem.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Barmetler.RoadSystem.Runtime.csproj">
-      <Project>{2F1AA7E4-CB72-269A-5CD9-F67DA3CCFA9B}</Project>
+      <Project>{E55ED01E-0CB2-1B76-B2F1-7319A8229810}</Project>
       <Name>Barmetler.RoadSystem.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{50541C86-CD63-E094-F825-EEAEBFD160BB}</ProjectGuid>
+    <ProjectGuid>{A63DCDBC-6F24-C6B1-F899-7D83DAF3FD31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Barmetler.RoadSystem.Editor.Tests</AssemblyName>
@@ -683,7 +683,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Barmetler.RoadSystem.Editor.csproj">
-      <Project>{50611E02-EF8C-634F-CA20-57A820578551}</Project>
+      <Project>{A609636B-0471-45C5-E4A4-4B2484F48813}</Project>
       <Name>Barmetler.RoadSystem.Editor</Name>
     </ProjectReference>
   </ItemGroup>

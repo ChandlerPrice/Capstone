@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{50611E02-EF8C-634F-CA20-57A820578551}</ProjectGuid>
+    <ProjectGuid>{A609636B-0471-45C5-E4A4-4B2484F48813}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Barmetler.RoadSystem.Editor</AssemblyName>
@@ -56,20 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadSystemEditor.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\MBEditorTool.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\RoadSystemNavigatorEditor.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadMeshEditor.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\RSHandleUtility.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadMenu.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\IntersectionEditor.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\Settings\RoadSystemSettings.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\Settings\NewRoadWizard.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\Settings\RoadSystemSettingsProvider.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadLinkTool.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadEditorWindow.cs" />
-    <Compile Include="Assets\Barmetler\Road System\Editor\RoadEditor.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\Settings\NewRoadWizard.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadMeshEditor.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadMenu.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadSystemEditor.cs" />
     <Compile Include="Assets\Barmetler\Road System\Editor\YesNoMaybe.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadEditorWindow.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\MBEditorTool.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadEditor.cs" />
+    <Compile Include="Assets\Barmetler\Road System\Editor\RoadLinkTool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Barmetler\Road System\Editor\Barmetler.RoadSystem.Editor.asmdef" />
@@ -714,7 +714,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Barmetler.RoadSystem.Runtime.csproj">
-      <Project>{2F1AA7E4-CB72-269A-5CD9-F67DA3CCFA9B}</Project>
+      <Project>{E55ED01E-0CB2-1B76-B2F1-7319A8229810}</Project>
       <Name>Barmetler.RoadSystem.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
