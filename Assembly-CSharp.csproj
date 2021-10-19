@@ -56,11 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Agent\NavMovement.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\Explosive.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\Scripts\Agent\SearchPath.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ProximityActivate.cs" />
@@ -73,12 +71,10 @@
     <Compile Include="Assets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Ramps\Runtime\RampAsset.cs" />
-    <Compile Include="Assets\Scripts\Agent\StateMachine.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\Agent\SearchNode.cs" />
-    <Compile Include="Assets\Scripts\Agent\IdleState.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Scripts\Agent\Movement.cs" />
@@ -86,13 +82,11 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
     <Compile Include="Assets\Scripts\Car\SimpleCarController.cs" />
-    <Compile Include="Assets\Scripts\Agent\StateAgent.cs" />
     <Compile Include="Assets\Scripts\Agent\Agent.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\Scripts\Agent\State.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\Agent\WaypointNode.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\FireLight.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
@@ -100,14 +94,20 @@
     <Compile Include="Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets\Scripts\Agent\AttackState.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
-    <Compile Include="Assets\Scripts\Agent\RaycastPerception.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Scripts\Car\AICarController.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\Hose.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Scripts\Agent\RaycastPerception.cs" />
+    <Compile Include="Assets\Scripts\Agent\AttackState.cs" />
+    <Compile Include="Assets\Scripts\Agent\SearchPath.cs" />
+    <Compile Include="Assets\Scripts\Agent\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\Agent\NavMovement.cs" />
+    <Compile Include="Assets\Scripts\Agent\WaypointNode.cs" />
+    <Compile Include="Assets\Scripts\Agent\StateAgent.cs" />
+    <Compile Include="Assets\Scripts\Agent\IdleState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
