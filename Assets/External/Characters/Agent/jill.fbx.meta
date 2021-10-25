@@ -11,47 +11,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_Body_MAT
-    second: {fileID: 2100000, guid: 107431f12740b7f4c873b483aa47d821, type: 2}
+    second: {fileID: 2100000, guid: 5dab915528dfa8349a683ade89bd4b48, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_EyeSpec_MAT
-    second: {fileID: 2100000, guid: e0a20915e13db394b957594d7cf314f6, type: 2}
+    second: {fileID: 2100000, guid: 9f5a5d2cba7cc194580871be3aa5247e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_Eyes_MAT
-    second: {fileID: 2100000, guid: ca66ef747e435034c9c2072273bf40fd, type: 2}
+    second: {fileID: 2100000, guid: 8ed7412e079013441be88ce57d4c3757, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_Gown_MAT
-    second: {fileID: 2100000, guid: d54d39eda2cc00643a5a357c742ac44d, type: 2}
+    second: {fileID: 2100000, guid: 1e8b5c9bcfe356941b2e726b8111a4eb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_Hair_MAT
-    second: {fileID: 2100000, guid: 50086a932bc5d084c8b6f50ab61192d5, type: 2}
+    second: {fileID: 2100000, guid: c95e1df6b1dcb6841b86db3dfb0264a5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_Teeth_MAT
-    second: {fileID: 2100000, guid: 920bc218461d60244aef46b812444d52, type: 2}
+    second: {fileID: 2100000, guid: 38eba25b009d0b54684d1d56cc99b5b7, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_diffuse
-    second: {fileID: 2800000, guid: bf5dcc3b436775b469f2f749d35472c9, type: 3}
+    second: {fileID: 2800000, guid: 1d3a15a16cde75841aaff230d183de60, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_normal
-    second: {fileID: 2800000, guid: 3fbd81d9fcb6c7d4aa102cfe86e480f2, type: 3}
+    second: {fileID: 2800000, guid: 23af539817ff97a40850c3ba29c43e15, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Jill_HiMidRes_specular
-    second: {fileID: 2800000, guid: 090e51dd5a76521408290382d37a699b, type: 3}
+    second: {fileID: 2800000, guid: d777e879a17f83d4b95dcd108e9cbe96, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
